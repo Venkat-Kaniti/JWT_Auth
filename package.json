@@ -1,0 +1,23 @@
+{
+  "name": "jwt_api",
+  "version": "1.0.0",
+  "description": "Protecting api using JWT",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "Venkat Kaniti",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.4.1",
+    "mongoose": "^4.2.3",
+    "morgan": "^1.6.1"
+  }
+}
